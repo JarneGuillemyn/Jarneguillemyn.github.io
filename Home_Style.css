@@ -70,98 +70,98 @@ table {
 }
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav{
-  margin: 0;
-  padding-bottom: 80px;
-  position: relative;
+    margin: 0;
+    padding-bottom: 80px;
+    position: relative;
 }
 
 .topnav #myLinks {
-  display: none;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    text-align: center;
-    position: absolute;
-    width:100vw;
-    height: auto;
-    background-color:rgba(0, 0, 0, 0.4);
+    display: none;
+      font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+      text-align: center;
+      position: absolute;
+      width:100vw;
+      height: auto;
+      background-color:rgba(0, 0, 0, 0.4);
+      z-index: 10;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
     z-index: 10;
-}
 
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  z-index: 10;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 15px;
+    line-height: 0;
+    height: auto;
+  }
+  
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10;
 
-}
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    z-index: 10;
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: rgba(0, 0, 0, 0);
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  margin: 0;
-  padding: 15px;
-  line-height: 0;
-  height: auto;
-}
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    z-index: 10;
 
-.container {
-  display: inline-block;
-  cursor: pointer;
-  z-index: 10;
+  }
+  
+  .change .bar2 {opacity: 0;
+    z-index: 10;
 
-}
+  }
+  
 
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-  z-index: 10;
-
-}
-
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-  z-index: 10;
-
-}
-
-.change .bar2 {opacity: 0;
-  z-index: 10;
-
-}
-
-
-
-.change .bar3 {
-  z-index: 10;
-  transform: translate(0, -11px) rotate(45deg);
-
-}
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  z-index: 10;
-  background-color: #ddd;
-  color: black;
-
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  z-index: 10;
-  background-color: #000000;
-  color: white;
-font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-
-}
+  
+  .change .bar3 {
+    z-index: 10;
+    transform: translate(0, -11px) rotate(45deg);
+ 
+  }
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    z-index: 10;
+    background-color: #ddd;
+    color: black;
+ 
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    z-index: 10;
+    background-color: #000000;
+    color: white;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ 
+  }
 
 /* Voor MOBIEL */
 @media only screen and (max-width: 600px) {
