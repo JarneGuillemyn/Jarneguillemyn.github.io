@@ -8,24 +8,28 @@
     </head>
 
     <body>
-		<div class="topnav">
-            <a href="index.html" class="active"></a>
-            <div id="myLinks">
-                <a href="Port_Page.html">portfolio</a>
-                <a href="index.html">about me</a>
-                <a href="Contact_Page.html">contact</a>
+		<div class="Menu">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="Port_Page.html">portfolio</a>
+        <a href="index.html">about me</a>
+        <a href="Contact_Page.html">contact</a>
+
+      </div>
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="container" onclick="change(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
             </div>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <div class="container" onclick="change(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
                 <i class="fa fa-bars"></i>
-            </a>
-        </div>
+          </a>
+    </div>
 
+</div>
         <div class="row">
             <div class="col-m-8 col-6" id="title_portfolio">Portfolio</div>
             <button class="col-m-4 col-6" id="display_all" onclick="DisplayAll()">Alles</button>
