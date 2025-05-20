@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background-color: black;
+	background-color: rgb(20, 20, 20);
 	overflow-y: scroll;
 	display: block;
 	height: 100vh;
@@ -192,10 +192,10 @@ table {
 	text-align: center;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	align-self: center;
-	padding-top: 45vh;
+	padding-top: 1vh;
 	font-size: 300%;
 	color: white;
-	margin-bottom:40vh; 
+	margin-bottom:5vh; 
 	
 }
 
@@ -208,34 +208,39 @@ table {
   	border-top: 20px solid #FFFFFF;
 	margin: auto;
 	color: white;
-	
+
 }
 #uzelf{
 	width: 100%;
 	margin: auto;
-	margin-top: 40vh;
-    color: whitesmoke;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-top: 22vh;
+  color: whitesmoke;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+  background-repeat:no-repeat ;	
 /*	border:solid #FF0004 1px;*/
 	
 }
 .img{
+  border-radius: 50%;
 	background-size: cover; 
-	background-repeat: no-repeat; 
-	width: 20vh;
+	background-repeat: no-repeat;
+  background-position:center ; 
+	width: 25vh;
 	margin:auto;
 	display:block;
-	height: 20vh;
+	height: 25vh;
 	padding-bottom: 2%;
 	
 /*	border:solid #FF0004 1px;	*/
 	
 }
 #tekst{
+  width: 50vh;
+  height: auto;
 	margin-top: 20vh;
 	margin: auto;
 	display: block;
-	padding: 2VW;
+	padding: 2vh;
 	text-align: center;	
 	/*border:solid #FF0004 1px;	*/
 
