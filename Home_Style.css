@@ -194,7 +194,7 @@ table {
 	align-self: center;
 	padding-top: 1vh;
 	font-size: 300%;
-	color: white;
+	color: rgba(147, 242, 255, 1);
 	margin-bottom:5vh; 
 	
 }
@@ -213,7 +213,7 @@ table {
 #uzelf{
 	width: 100%;
 	margin: auto;
-	margin-top: 22vh;
+	margin-top: 16vh;
   color: whitesmoke;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
   background-repeat:no-repeat ;	
@@ -230,6 +230,9 @@ table {
 	display:block;
 	height: 25vh;
 	padding-bottom: 2%;
+  box-shadow: 0 0 90px 2px rgba(147, 242, 255, 1);
+  z-index: 1;
+  border: solid 3px rgba(147, 242, 255, 1);
 	
 /*	border:solid #FF0004 1px;	*/
 	
