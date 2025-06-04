@@ -30,7 +30,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background-color: rgb(20, 20, 20);
+	    background: #00286e;
+    background: linear-gradient(
+        to bottom,
+        rgb(50, 50, 50) 0%,
+        rgb(50, 50, 50) 92.5%,
+        rgba(147, 242, 255, 1)  100%
+    );
 	overflow-y: scroll;
 	display: block;
 	height: 100vh;
@@ -194,7 +200,7 @@ table {
 	align-self: center;
 	padding-top: 1vh;
 	font-size: 300%;
-	color: rgba(147, 242, 255, 1);
+	color: rgb(40, 40, 40);
 	margin-bottom:5vh; 
 	
 }
@@ -214,7 +220,7 @@ table {
 	width: 100%;
 	margin: auto;
 	margin-top: 16vh;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
   background-repeat:no-repeat ;	
 /*	border:solid #FF0004 1px;*/
