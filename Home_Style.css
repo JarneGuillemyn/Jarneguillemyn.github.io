@@ -30,13 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	    background: #00286e;
-    background: linear-gradient(
-        to bottom,
-        rgb(50, 50, 50) 0%,
-        rgb(50, 50, 50) 92.5%,
-        rgba(147, 242, 255, 1)  100%
-    );
+	background: rgb(30, 30, 30);
 	overflow-y: scroll;
 	display: block;
 	height: 100vh;
@@ -200,7 +194,7 @@ table {
 	align-self: center;
 	padding-top: 1vh;
 	font-size: 300%;
-	color: rgb(40, 40, 40);
+	color: white;
 	margin-bottom:5vh; 
 	
 }
@@ -252,7 +246,6 @@ table {
 	padding: 2vh;
 	text-align: center;	
 	/*border:solid #FF0004 1px;	*/
-
 }
 
 /* Voor DESKTOP */
